@@ -1,0 +1,95 @@
+.block {
+  width: 300px;
+  min-height: 200px;
+  max-height: 100vh;
+  float: left;
+  margin: 0 20px 0 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .flags {
+    display: inline-block;
+    margin: 0 5px 0 0;
+
+    i {
+      display: block;
+      width: 15px;
+      height: 15px;
+      color: white;
+
+      &.sun:before {
+        content: "\f185";
+        color: orange;
+      }
+
+      &.heart:before {
+        content: "\f004";
+        color: red;
+      }
+
+      &.flower:before {
+        content: "\f1bb";
+        color: green;
+      }
+
+      &.flash:before {
+        content: "\f0e7";
+        color: yellow;
+      }
+    }
+  }
+
+  &.list {
+    background-color: cornflowerblue;
+
+    .header {
+      height: 50px;
+    }
+
+    li {
+      margin: 5px;
+      padding: 4px;
+      background-color: lightgreen;
+      color: black;
+      cursor: pointer;
+    }
+
+    &.second {
+      margin-right: 0;
+    }
+  }
+
+  &.info {
+    width: 400px;
+    background-color: darkgrey;
+    overflow: visible;
+
+    .header {
+      background-color: transparent;
+      text-transform: uppercase;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  .header {
+    padding: 10px;
+    margin: 5px 5px 10px 5px;
+    background-color: #eeeeee;
+    font-size: 14px;
+
+    @include border-radius(5px);
+  }
+
+  .sort {
+    cursor: pointer;
+
+    &.unchecked .fa:before {
+      content: "\f096";
+    }
+
+    &.checked .fa:before {
+      content: "\f046";
+    }
+  }
+}

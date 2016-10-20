@@ -1,0 +1,45 @@
+<div mylists>
+  <div class="clearfix">
+    <div class="block list first clearfix">
+      <div class="header">
+        <div class="sort unchecked" ng-click="sort()">Sort: <i class="fa" aria-hidden="true"></i></div>
+      </div>
+
+      <div class="context">
+        <ul ui-sortable ng-model="elementsFirst">
+          <li ng-repeat="element in elementsFirst">
+            <div class="name">{{element.info.name}}</div>
+            <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
+              <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="block info clearfix">
+      <div class="header">
+        Info
+      </div>
+
+      <div class="context">
+      </div>
+    </div>
+
+    <div class="block list second clearfix">
+      <div class="header">
+      </div>
+
+      <div class="context">
+        <ul>
+          <li ng-repeat="element in elementsSecond">
+            <div class="name">{{element.info.name}}</div>
+            <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
+              <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
