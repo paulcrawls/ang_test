@@ -1,19 +1,21 @@
-<div ng-controller="MainController">
+<div testlists ng-controller="MainController">
   <div class="clearfix">
     <div class="block list first clearfix">
       <div class="header">
-        <div class="sort unchecked" ng-click="sort()">Sort: <i class="fa" aria-hidden="true"></i></div>
+        <div class="sort left checked" ng-click="sortProperty('info.name')">Sort: <i class="fa" aria-hidden="true"></i></div>
+        <div class="left">
+          <input ng-model="searchText.info.name" placeholder="Search...">
+        </div>
       </div>
 
       <div class="context">
-        <ul class="pane" ui-sortable="sortableOptions" ng-model="elementsFirst">
-          <li ng-repeat="element in elementsFirst">
+        <ul class="pane first" ui-sortable="sortableOptions" ng-model="elementsFirst">
+          <li id="{{element.id}}" ng-repeat="element in elementsFirst | filter:searchText:strict">
             <div class="name">{{element.info.name}}</div>
             <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
               <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
             </div>
-          </li><!--
-          <li ng-repeat="item in leftArray" class="item">{{item.text}}</li>-->
+          </li>
         </ul>
       </div>
     </div>
@@ -24,22 +26,28 @@
       </div>
 
       <div class="context">
+        <div class="name">Name: <span></span></div>
+        <div class="flags">Flags: <div></div></div>
       </div>
     </div>
 
     <div class="block list second clearfix">
-      <div class="header">
+      <div class="header clearfix flags">
+        <div class="left">Filters:</div>
+        <div class="left filter filter-sun" ng-click="sortByTag('sun')"><i class="fa sun" aria-hidden="true" title="sun"></i></div>
+        <div class="left filter filter-flash" ng-click="sortByTag('flash')"><i class="fa flash" aria-hidden="true" title="flash"></i></div>
+        <div class="left filter filter-flower" ng-click="sortByTag('flower')"><i class="fa flower" aria-hidden="true" title="flower"></i></div>
+        <div class="left filter filter-heart" ng-click="sortByTag('heart')"><i class="fa heart" aria-hidden="true" title="heart"></i></div>
       </div>
 
       <div class="context">
-        <ul class="pane" ui-sortable="sortableOptions" ng-model="elementsSecond">
-          <li ng-repeat="element in elementsSecond">
+        <ul class="pane second" ui-sortable="sortableOptions" ng-model="elementsSecond">
+          <li id="{{element.id}}" ng-repeat="element in elementsSecond | filter:sortingTag">
             <div class="name">{{element.info.name}}</div>
             <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
               <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
             </div>
           </li>
-          <!--<li ng-repeat="item in rightArray" class="item">{{item.text}}</li>-->
         </ul>
       </div>
     </div>

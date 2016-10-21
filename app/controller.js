@@ -11,7 +11,7 @@
     .module('boilerplate')
     .controller('MainController', MainController);
 
-  function MainController($scope, $http) {
+  function MainController($scope, $http, $filter) {
 
     function getData(url, name) {
       $http.get(url)
@@ -25,8 +25,22 @@
 
     /** SORTABLE **/
     $scope.sortableOptions = {
-      connectWith: '.context .pane'
+      connectWith: '.context .pane',
+      // called after a node is dropped
+      receive: function(e, ui) {
+        var id = ui.item.prop('id');
+
+        console.log(ui.item.sortable.sourceModel, ui.item.sortable.droptargetModel);
+      }
     };
+
+    $scope.orderBy = function() {
+      $scope.elementsFirst = $filter('orderBy')($scope.elementsFirst, $scope.orderProperty);
+    };
+
+    $scope.$watchCollection('elementsFirst', function () {
+      $scope.orderBy();
+    });
   }
 
   angular
