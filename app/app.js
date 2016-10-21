@@ -12,14 +12,12 @@
 ;(function() {
 
 
+  var app = angular.module('boilerplate', ['ngRoute', 'ui.sortable']);
+
   /**
    * Definition of the main app module and its dependencies
    */
-  angular
-    .module('boilerplate', [
-      'ngRoute',
-      'ui.sortable'
-    ])
+  app
     .config(config);
 
   // safe dependency injection
@@ -44,16 +42,6 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'MainController',
-        controllerAs: 'main'
-      })
-      .when('/setup', {
-        templateUrl: 'views/setup.html',
-        controller: 'MainController',
-        controllerAs: 'main'
-      })
       .otherwise({
         redirectTo: '/'
       });
@@ -68,8 +56,7 @@
    * or handle what should happend on 40x, 50x errors
    *
    */
-  angular
-    .module('boilerplate')
+  app
     .factory('authInterceptor', authInterceptor);
 
   authInterceptor.$inject = ['$rootScope', '$q', 'LocalStorage', '$location'];
@@ -100,8 +87,7 @@
   /**
    * Run block
    */
-  angular
-    .module('boilerplate')
+  app
     .run(run);
 
   run.$inject = ['$rootScope', '$location'];

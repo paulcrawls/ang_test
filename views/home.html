@@ -1,4 +1,4 @@
-<div mylists>
+<div ng-controller="MainController">
   <div class="clearfix">
     <div class="block list first clearfix">
       <div class="header">
@@ -6,13 +6,14 @@
       </div>
 
       <div class="context">
-        <ul ui-sortable ng-model="elementsFirst">
+        <ul class="pane" ui-sortable="sortableOptions" ng-model="elementsFirst">
           <li ng-repeat="element in elementsFirst">
             <div class="name">{{element.info.name}}</div>
             <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
               <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
             </div>
-          </li>
+          </li><!--
+          <li ng-repeat="item in leftArray" class="item">{{item.text}}</li>-->
         </ul>
       </div>
     </div>
@@ -31,13 +32,14 @@
       </div>
 
       <div class="context">
-        <ul>
+        <ul class="pane" ui-sortable="sortableOptions" ng-model="elementsSecond">
           <li ng-repeat="element in elementsSecond">
             <div class="name">{{element.info.name}}</div>
             <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
               <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
             </div>
           </li>
+          <!--<li ng-repeat="item in rightArray" class="item">{{item.text}}</li>-->
         </ul>
       </div>
     </div>

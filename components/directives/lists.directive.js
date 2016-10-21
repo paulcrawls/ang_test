@@ -4,7 +4,7 @@
 
   angular
     .module('boilerplate')
-    .directive('mylists', lists);
+    .directive('jsonLists', lists);
 
   function lists() {
     // Definition of directive
@@ -18,6 +18,7 @@
         });
 
         scope.sort = function () {
+          console.log(1);
           $('.sort').toggleClass('checked unchecked');
         }
 

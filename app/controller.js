@@ -23,6 +23,10 @@
     getData('data/first.json', 'elementsFirst');
     getData('data/second.json', 'elementsSecond');
 
+    /** SORTABLE **/
+    $scope.sortableOptions = {
+      connectWith: '.context .pane'
+    };
   }
 
   angular
