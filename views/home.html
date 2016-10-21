@@ -10,7 +10,7 @@
 
       <div class="context">
         <ul class="pane first" ui-sortable="sortableOptions" ng-model="elementsFirst">
-          <li id="{{element.id}}" ng-repeat="element in elementsFirst | filter:searchText:strict">
+          <li id="{{element.id}}" ng-repeat="element in elementsFirst | filter:searchText:strict" ng-click="showInfo(element)">
             <div class="name">{{element.info.name}}</div>
             <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
               <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
@@ -42,8 +42,8 @@
 
       <div class="context">
         <ul class="pane second" ui-sortable="sortableOptions" ng-model="elementsSecond">
-          <li id="{{element.id}}" ng-repeat="element in elementsSecond | filter:sortingTag">
-            <div class="name">{{element.info.name}}</div>
+          <li id="{{element.id}}" ng-repeat="element in elementsSecond | filter:sortingTag" ng-click="showInfo(element)">
+            <div class="name" ng-click="showInfo(element)">{{element.info.name}}</div>
             <div class="flags" ng-repeat="flag in element.info.flags | unique: 'flag'">
               <i class="fa {{flag}}" aria-hidden="true" title="{{flag}}"></i>
             </div>

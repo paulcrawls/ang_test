@@ -69,6 +69,10 @@
 
     &.second {
       margin-right: 0;
+
+      .header {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -86,6 +90,12 @@
 
     .context {
       padding: 10px;
+
+      .flags {
+        div {
+          display: inline-block;
+        }
+      }
     }
   }
 

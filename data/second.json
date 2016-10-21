@@ -26,5 +26,1025 @@
         "sun"
       ]
     }
+  },
+  {
+    "id": "s3",
+    "info": {
+      "name": "Datagene",
+      "flags": [
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s4",
+    "info": {
+      "name": "Obones",
+      "flags": [
+        "flash",
+        "heart",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s5",
+    "info": {
+      "name": "Cinaster",
+      "flags": [
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s6",
+    "info": {
+      "name": "Remold",
+      "flags": [
+        "flash",
+        "flower",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s7",
+    "info": {
+      "name": "Bitendrex",
+      "flags": [
+        "flower",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s8",
+    "info": {
+      "name": "Exiand",
+      "flags": [
+        "flash",
+        "heart",
+        "sun",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s9",
+    "info": {
+      "name": "Kaggle",
+      "flags": [
+        "flash",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s10",
+    "info": {
+      "name": "Geekosis",
+      "flags": [
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s11",
+    "info": {
+      "name": "Idego",
+      "flags": [
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s12",
+    "info": {
+      "name": "Extragene",
+      "flags": [
+        "sun",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s13",
+    "info": {
+      "name": "Comstruct",
+      "flags": [
+        "sun",
+        "flower",
+        "flower",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s14",
+    "info": {
+      "name": "Quantasis",
+      "flags": [
+        "heart",
+        "sun",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s15",
+    "info": {
+      "name": "Voratak",
+      "flags": [
+        "sun",
+        "flower",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s16",
+    "info": {
+      "name": "Bullzone",
+      "flags": [
+        "sun",
+        "sun",
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s17",
+    "info": {
+      "name": "Zoxy",
+      "flags": [
+        "flash",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s18",
+    "info": {
+      "name": "Insource",
+      "flags": [
+        "sun",
+        "flower",
+        "heart",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s19",
+    "info": {
+      "name": "Kraggle",
+      "flags": [
+        "heart",
+        "heart",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s20",
+    "info": {
+      "name": "Aquacine",
+      "flags": [
+        "sun",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s21",
+    "info": {
+      "name": "Vertide",
+      "flags": [
+        "sun",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s22",
+    "info": {
+      "name": "Calcu",
+      "flags": [
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s23",
+    "info": {
+      "name": "Applideck",
+      "flags": [
+        "heart",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s24",
+    "info": {
+      "name": "Gushkool",
+      "flags": [
+        "heart",
+        "flash",
+        "heart",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s25",
+    "info": {
+      "name": "Conferia",
+      "flags": [
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s26",
+    "info": {
+      "name": "Bytrex",
+      "flags": [
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s27",
+    "info": {
+      "name": "Extro",
+      "flags": [
+        "sun",
+        "flash",
+        "flash",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s28",
+    "info": {
+      "name": "Mixers",
+      "flags": [
+        "heart",
+        "heart",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s29",
+    "info": {
+      "name": "Aquafire",
+      "flags": [
+        "sun",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s30",
+    "info": {
+      "name": "Octocore",
+      "flags": [
+        "heart",
+        "heart",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s31",
+    "info": {
+      "name": "Jasper",
+      "flags": [
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s32",
+    "info": {
+      "name": "Entality",
+      "flags": [
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s33",
+    "info": {
+      "name": "Gynko",
+      "flags": [
+        "flash",
+        "heart",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s34",
+    "info": {
+      "name": "Papricut",
+      "flags": [
+        "sun",
+        "flash",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s35",
+    "info": {
+      "name": "Ewaves",
+      "flags": [
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s36",
+    "info": {
+      "name": "Hinway",
+      "flags": [
+        "flower",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s37",
+    "info": {
+      "name": "Golistic",
+      "flags": [
+        "flash",
+        "heart",
+        "flower",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s38",
+    "info": {
+      "name": "Pearlessa",
+      "flags": [
+        "heart",
+        "sun",
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s39",
+    "info": {
+      "name": "Zboo",
+      "flags": [
+        "heart",
+        "flash",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s40",
+    "info": {
+      "name": "Acusage",
+      "flags": [
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s41",
+    "info": {
+      "name": "Strozen",
+      "flags": [
+        "heart",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s42",
+    "info": {
+      "name": "Techade",
+      "flags": [
+        "sun",
+        "flash",
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s43",
+    "info": {
+      "name": "Orbean",
+      "flags": [
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s44",
+    "info": {
+      "name": "Tsunamia",
+      "flags": [
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s45",
+    "info": {
+      "name": "Geekular",
+      "flags": [
+        "flower",
+        "heart",
+        "heart",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s46",
+    "info": {
+      "name": "Plasmosis",
+      "flags": [
+        "flower",
+        "sun",
+        "flash",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s47",
+    "info": {
+      "name": "Grupoli",
+      "flags": [
+        "heart",
+        "heart",
+        "sun",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s48",
+    "info": {
+      "name": "Toyletry",
+      "flags": [
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s49",
+    "info": {
+      "name": "Collaire",
+      "flags": [
+        "heart",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s50",
+    "info": {
+      "name": "Vortexaco",
+      "flags": [
+        "flower",
+        "flash",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s51",
+    "info": {
+      "name": "Enormo",
+      "flags": [
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s52",
+    "info": {
+      "name": "Enersave",
+      "flags": [
+        "flash",
+        "heart",
+        "flower",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s53",
+    "info": {
+      "name": "Neurocell",
+      "flags": [
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s54",
+    "info": {
+      "name": "Zyple",
+      "flags": [
+        "heart",
+        "flash",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s55",
+    "info": {
+      "name": "Accufarm",
+      "flags": [
+        "sun",
+        "heart",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s56",
+    "info": {
+      "name": "Limozen",
+      "flags": [
+        "flower",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s57",
+    "info": {
+      "name": "Moltonic",
+      "flags": [
+        "flash",
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s58",
+    "info": {
+      "name": "Acumentor",
+      "flags": [
+        "heart",
+        "sun",
+        "flash",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s59",
+    "info": {
+      "name": "Equitax",
+      "flags": [
+        "heart",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s60",
+    "info": {
+      "name": "Ontagene",
+      "flags": [
+        "sun",
+        "heart",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s61",
+    "info": {
+      "name": "Twiist",
+      "flags": [
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s62",
+    "info": {
+      "name": "Kiggle",
+      "flags": [
+        "sun",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s63",
+    "info": {
+      "name": "Manufact",
+      "flags": [
+        "sun",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s64",
+    "info": {
+      "name": "Ramjob",
+      "flags": [
+        "heart",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s65",
+    "info": {
+      "name": "Comtrek",
+      "flags": [
+        "flash",
+        "flower",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s66",
+    "info": {
+      "name": "Zanymax",
+      "flags": [
+        "flower",
+        "heart",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s67",
+    "info": {
+      "name": "Pawnagra",
+      "flags": [
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s68",
+    "info": {
+      "name": "Jimbies",
+      "flags": [
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s69",
+    "info": {
+      "name": "Genekom",
+      "flags": [
+        "sun",
+        "flash",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s70",
+    "info": {
+      "name": "Icology",
+      "flags": [
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s71",
+    "info": {
+      "name": "Realmo",
+      "flags": [
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s72",
+    "info": {
+      "name": "Biospan",
+      "flags": [
+        "flower",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s73",
+    "info": {
+      "name": "Avit",
+      "flags": [
+        "sun",
+        "flower",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s74",
+    "info": {
+      "name": "Kozgene",
+      "flags": [
+        "heart",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s75",
+    "info": {
+      "name": "Gaptec",
+      "flags": [
+        "flash",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s76",
+    "info": {
+      "name": "Shepard",
+      "flags": [
+        "flash",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s77",
+    "info": {
+      "name": "Dogspa",
+      "flags": [
+        "sun",
+        "flower",
+        "flash",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s78",
+    "info": {
+      "name": "Zenolux",
+      "flags": [
+        "flash",
+        "heart",
+        "flash",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s79",
+    "info": {
+      "name": "Electonic",
+      "flags": [
+        "flash",
+        "flash",
+        "heart",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s80",
+    "info": {
+      "name": "Exospace",
+      "flags": [
+        "heart",
+        "flower",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s81",
+    "info": {
+      "name": "Kinetica",
+      "flags": [
+        "sun",
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s82",
+    "info": {
+      "name": "Bolax",
+      "flags": [
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s83",
+    "info": {
+      "name": "Xplor",
+      "flags": [
+        "flash",
+        "sun",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s84",
+    "info": {
+      "name": "Aclima",
+      "flags": [
+        "sun",
+        "flash",
+        "flash",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s85",
+    "info": {
+      "name": "Quiltigen",
+      "flags": [
+        "flower",
+        "flower",
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s86",
+    "info": {
+      "name": "Netagy",
+      "flags": [
+        "sun",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s87",
+    "info": {
+      "name": "Applica",
+      "flags": [
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s88",
+    "info": {
+      "name": "Vinch",
+      "flags": [
+        "sun",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s89",
+    "info": {
+      "name": "Futurize",
+      "flags": [
+        "flash",
+        "heart",
+        "flower",
+        "flower"
+      ]
+    }
+  },
+  {
+    "id": "s90",
+    "info": {
+      "name": "Acruex",
+      "flags": [
+        "heart",
+        "sun",
+        "heart",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s91",
+    "info": {
+      "name": "Tasmania",
+      "flags": [
+        "sun",
+        "flash",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s92",
+    "info": {
+      "name": "Kongle",
+      "flags": [
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s93",
+    "info": {
+      "name": "Digiprint",
+      "flags": [
+        "sun",
+        "flash",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s94",
+    "info": {
+      "name": "Moreganic",
+      "flags": [
+        "flower",
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s95",
+    "info": {
+      "name": "Navir",
+      "flags": [
+        "flash",
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s96",
+    "info": {
+      "name": "Nitracyr",
+      "flags": [
+        "heart"
+      ]
+    }
+  },
+  {
+    "id": "s97",
+    "info": {
+      "name": "Corporana",
+      "flags": [
+        "flash"
+      ]
+    }
+  },
+  {
+    "id": "s98",
+    "info": {
+      "name": "Volax",
+      "flags": [
+        "sun",
+        "flash",
+        "heart",
+        "sun"
+      ]
+    }
+  },
+  {
+    "id": "s99",
+    "info": {
+      "name": "Ozean",
+      "flags": [
+        "heart",
+        "flower",
+        "flower",
+        "sun"
+      ]
+    }
   }
 ]
