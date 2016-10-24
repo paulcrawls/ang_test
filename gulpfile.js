@@ -15,7 +15,7 @@
  * 6. minify and copy all JS files
  * 7. copy fonts
  * 8. show build folder size
- *
+ * 
  */
 var gulp            = require('gulp'),
     browserSync     = require('browser-sync'),
@@ -186,11 +186,11 @@ gulp.task('usemin', function() {
     }))
     .pipe($.usemin({
       css: [$.minifyCss(), 'concat'],
-      libs: [],
-      nonangularlibs: [],
-      angularlibs: [],
-      appcomponents: [],
-      mainapp: []
+      libs: [$.uglify()],
+      nonangularlibs: [$.uglify()],
+      angularlibs: [$.uglify()],
+      appcomponents: [$.uglify()],
+      mainapp: [$.uglify()]
     }))
     .pipe(gulp.dest('./_build/'));
 });
@@ -255,7 +255,7 @@ gulp.task('default', ['browser-sync', 'sass', 'minify-css'], function() {
  * 6. minify and copy all JS files
  * 7. copy fonts
  * 8. show build folder size
- *
+ * 
  */
 gulp.task('build', function(callback) {
   runSequence(

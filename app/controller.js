@@ -9,7 +9,9 @@
 
   angular
     .module('boilerplate')
-    .controller('MainController', ['$scope', '$http', '$filter', MainController]);
+    .controller('MainController', MainController);
+
+  MainController.$inject = ['$scope', '$http', '$filter'];
 
   function MainController($scope, $http, $filter) {
 
