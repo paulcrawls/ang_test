@@ -9,7 +9,7 @@
 
   angular
     .module('boilerplate')
-    .controller('MainController', MainController);
+    .controller('MainController', ['$scope', '$http', '$filter', MainController]);
 
   function MainController($scope, $http, $filter) {
 
@@ -29,8 +29,6 @@
       // called after a node is dropped
       receive: function(e, ui) {
         var id = ui.item.prop('id');
-
-        console.log(ui.item.sortable.sourceModel, ui.item.sortable.droptargetModel);
       }
     };
 
